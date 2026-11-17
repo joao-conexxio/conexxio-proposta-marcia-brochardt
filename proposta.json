@@ -1,0 +1,192 @@
+{
+  "slug": "marcia-brochardt",
+  "negocio": {
+    "nome": "Espaço Marcia Brochardt",
+    "whatsapp": "5521995328807",
+    "telefone": "(21) 99532-8807",
+    "unidades": [
+      {
+        "bairro": "Tijuca · Rio de Janeiro",
+        "endereco": "R. Barão de Mesquita, 186b – Shopping 344 Tijuca, Rio de Janeiro – RJ, 20540-006",
+        "telefone": "(21) 99532-8807",
+        "horario": "Horários e agendamento pelo WhatsApp"
+      }
+    ]
+  },
+  "marca": {
+    "brand": "#8F6E2E",
+    "brand2": "#6E5322",
+    "ink": "#2E2A24",
+    "bg": "#FBF8F3",
+    "pulse": "#C9A55A",
+    "radius": "18px",
+    "registro": "editorial",
+    "fontDisplay": "Playfair Display",
+    "fontBody": "Montserrat",
+    "tomHero": "claro",
+    "tomCorpo": "claro"
+  },
+  "motivo": "camadas",
+  "secoes": [
+    {
+      "id": "header",
+      "variant": "sticky-cta",
+      "data": {
+        "links": [
+          { "texto": "Tratamentos", "href": "#tratamentos" },
+          { "texto": "Saúde integrada", "href": "#saude-integrada" },
+          { "texto": "Como funciona", "href": "#como-funciona" },
+          { "texto": "Onde fica", "href": "#unidades" }
+        ]
+      }
+    },
+    {
+      "id": "hero",
+      "variant": "moldura",
+      "data": {
+        "eyebrow": "Estética e saúde integrada · Tijuca",
+        "h1": "Estética com olhar de fisioterapeuta",
+        "lead": "Rosto, corpo, depilação a laser, podologia e fisioterapia no mesmo espaço, com a fisioterapeuta dermatofuncional Marcia Brochardt e equipe, no Shopping 344 Tijuca.",
+        "cta": "Agendar avaliação",
+        "ctaSecundario": "Ver tratamentos",
+        "ctaSecundarioHref": "#tratamentos",
+        "imagem": "midia/marcia.jpg",
+        "imagemAlt": "Marcia Brochardt, fisioterapeuta dermatofuncional",
+        "tarja": [
+          "5,0 no Google, 179 avaliações",
+          "Mais de 8 anos de atendimento",
+          "Equipe de fisioterapeutas",
+          "Acesso para cadeira de rodas"
+        ]
+      }
+    },
+    {
+      "id": "fita",
+      "variant": "inclinada",
+      "data": {
+        "itens": ["Tratamento facial", "Tratamento corporal", "Harmonização", "Depilação a laser", "Podologia", "Fisioterapia pélvica", "Remoção de acrocórdons"]
+      }
+    },
+    {
+      "id": "manifesto",
+      "variant": "pagina",
+      "data": {
+        "eyebrow": "Quem cuida",
+        "texto": [
+          "Marcia Brochardt é fisioterapeuta dermatofuncional. Antes de pensar no procedimento, ela olha para a pele, o músculo e a circulação que estão por baixo.",
+          "Foi assim que o espaço cresceu: uma equipe de fisioterapeutas que cuida do rosto, do corpo, dos pés e do assoalho pélvico, sem mandar a paciente de um endereço para outro."
+        ],
+        "imagem": "midia/equipe.jpg",
+        "imagemAlt": "Equipe de fisioterapeutas do Espaço Marcia Brochardt"
+      }
+    },
+    {
+      "id": "tratamentos",
+      "variant": "pilha",
+      "data": {
+        "titulo": "O que fazemos",
+        "lead": "Cada plano começa por uma avaliação. A indicação vem depois, de acordo com a sua pele e o seu objetivo.",
+        "itens": [
+          { "nome": "Tratamento facial", "descricao": "Limpeza de pele e protocolos para textura, oleosidade e manchas, com retorno marcado para acompanhar a resposta da pele.", "icone": "rosto" },
+          { "nome": "Harmonização", "descricao": "Procedimentos injetáveis para o rosto, planejados com calma e com o resultado natural como regra.", "icone": "seringa" },
+          { "nome": "Tratamento corporal", "descricao": "Flacidez, firmeza e contorno, inclusive para a pele que não acompanhou o emagrecimento.", "icone": "pele" },
+          { "nome": "Depilação a laser", "descricao": "Sessões espaçadas no ritmo do ciclo do pelo, com a explicação de por que alguns fios voltam entre uma sessão e outra.", "icone": "laser" },
+          { "nome": "Podologia", "descricao": "Cuidado com unhas encravadas, calosidades e a saúde dos pés, com material esterilizado.", "icone": "pe" },
+          { "nome": "Remoção de acrocórdons", "descricao": "Retirada daquelas pequenas verrugas de pele do pescoço, axilas e colo, em atendimento rápido.", "icone": "check" }
+        ]
+      }
+    },
+    { "custom": "blocos/integrada.html" },
+    {
+      "id": "conversa",
+      "variant": "celular",
+      "data": {
+        "eyebrow": "Agendar é uma mensagem",
+        "titulo": "Tirou a dúvida, marcou o horário",
+        "lead": "A recepção responde pelo WhatsApp, explica o tratamento e já encaixa a avaliação.",
+        "cta": "Chamar no WhatsApp",
+        "contato": "Espaço Marcia Brochardt",
+        "mensagens": [
+          { "de": "paciente", "texto": "Oi! Emagreci bastante e a pele da barriga ficou flácida. Vocês tratam isso?" },
+          { "de": "clinica", "texto": "Oi, tudo bem? Tratamos sim. O primeiro passo é uma avaliação com a fisioterapeuta, pra ver a pele e montar o protocolo certo." },
+          { "de": "paciente", "texto": "Tem horário essa semana?" },
+          { "de": "clinica", "texto": "Tenho quinta às 15h ou sexta às 10h aqui na Tijuca. Qual fica melhor?" }
+        ]
+      }
+    },
+    {
+      "id": "numeros",
+      "variant": "vivo",
+      "data": {
+        "titulo": "Em números",
+        "itens": [
+          { "valor": "+4.000", "rotulo": "pacientes atendidas", "contar": 4000 },
+          { "valor": "+8", "rotulo": "anos de espaço", "contar": 8 },
+          { "valor": "5,0", "rotulo": "nota no Google, com 179 avaliações" }
+        ]
+      }
+    },
+    {
+      "id": "passos",
+      "variant": "timeline",
+      "data": {
+        "titulo": "Como funciona",
+        "itens": [
+          { "titulo": "Você chama no WhatsApp", "texto": "Conta o que te incomoda e escolhe um horário para a avaliação.", "icone": "conversa" },
+          { "titulo": "Avaliação com a fisioterapeuta", "texto": "Pele, tecido e objetivo são avaliados juntos. Você sai sabendo o que faz sentido fazer e o que não faz.", "icone": "mao" },
+          { "titulo": "Plano de sessões", "texto": "Número de sessões, intervalo entre elas e cuidados em casa, combinados antes de começar.", "icone": "agenda" },
+          { "titulo": "Retorno no tempo certo", "texto": "A equipe acompanha a evolução e avisa quando chega a hora da próxima sessão.", "icone": "check" }
+        ]
+      }
+    },
+    {
+      "id": "galeria",
+      "variant": "reels",
+      "data": {
+        "titulo": "No Instagram",
+        "lead": "Dicas da equipe e o dia a dia do espaço.",
+        "perfil": { "texto": "@esteticamarciabrochardt", "href": "https://www.instagram.com/esteticamarciabrochardt/" },
+        "itens": [
+          { "imagem": "midia/i02.jpg", "legenda": "Prazer, Marcia Brochardt", "link": "https://www.instagram.com/esteticamarciabrochardt/p/De2gsSvEhwT/" },
+          { "imagem": "midia/i08.jpg", "legenda": "A pele depois do emagrecimento", "link": "https://www.instagram.com/esteticamarciabrochardt/p/DeNetgfu19y/" },
+          { "imagem": "midia/i09.jpg", "legenda": "Fisioterapia pélvica", "link": "https://www.instagram.com/esteticamarciabrochardt/reel/DeKyUm1x-6i/" },
+          { "imagem": "midia/i12.jpg", "legenda": "O pelo voltou depois do laser?", "link": "https://www.instagram.com/esteticamarciabrochardt/p/DdufqZdn5By/" }
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "variant": "colunas",
+      "data": {
+        "titulo": "Perguntas frequentes",
+        "itens": [
+          { "p": "Preciso de avaliação antes de começar?", "r": "Sim. É nela que a fisioterapeuta vê a sua pele e indica o tratamento. Às vezes a resposta é fazer menos do que você imaginava." },
+          { "p": "Quantas sessões de laser vou precisar?", "r": "Depende da região, da cor do pelo e do tom de pele. O número é estimado na avaliação, e o intervalo segue o ciclo de crescimento do pelo." },
+          { "p": "Vocês atendem quem tem mobilidade reduzida?", "r": "Sim. A entrada, o banheiro e o assento têm acesso para cadeira de rodas." },
+          { "p": "Onde fica o espaço?", "r": "Dentro do Shopping 344 Tijuca, na Rua Barão de Mesquita, 186b." }
+        ]
+      }
+    },
+    {
+      "id": "unidades",
+      "variant": "unica",
+      "data": { "titulo": "Onde fica" }
+    },
+    {
+      "id": "cta-final",
+      "variant": "bloco-cheio",
+      "data": {
+        "h2": "Comece pela avaliação",
+        "lead": "Mande uma mensagem dizendo o que te incomoda. A gente responde com o horário.",
+        "cta": "Agendar pelo WhatsApp"
+      }
+    },
+    {
+      "id": "footer",
+      "variant": "completo",
+      "data": {
+        "aviso": "Resultados variam de pessoa para pessoa. Indicação de tratamento só após avaliação."
+      }
+    }
+  ]
+}

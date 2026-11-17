@@ -1,0 +1,58 @@
+<section class="blk-int" id="saude-integrada">
+  <div class="wrap">
+    <div class="blk-int__cab">
+      <p class="blk-int__eyebrow" data-reveal>Saúde integrada</p>
+      <h2 class="blk-int__titulo" data-reveal>O que a fisioterapia muda na estética</h2>
+      <p class="blk-int__lead" data-acende>Aqui quem atende são fisioterapeutas. A mesma formação que trata músculo, circulação e tecido serve para a pele do rosto, para o corpo depois de emagrecer, para o assoalho pélvico e para os pés.</p>
+      <div class="blk-int__motivo" aria-hidden="true"><!--motivo:accent--></div>
+    </div>
+    <ul class="blk-int__grade">
+      <li class="blk-int__card" data-reveal style="--d:0ms">
+        <span class="blk-int__ic"><!--icone:pele--></span>
+        <p class="blk-int__area">Dermatofuncional</p>
+        <h3>A pele como tecido vivo</h3>
+        <p>Firmeza, cicatrizes e textura tratadas a partir do que acontece abaixo da superfície.</p>
+      </li>
+      <li class="blk-int__card" data-reveal style="--d:100ms">
+        <span class="blk-int__ic"><!--icone:mao--></span>
+        <p class="blk-int__area">Depois do emagrecimento</p>
+        <h3>Quando a pele não acompanha</h3>
+        <p>Protocolos corporais para a flacidez que fica depois de uma perda grande de peso.</p>
+      </li>
+      <li class="blk-int__card" data-reveal style="--d:200ms">
+        <span class="blk-int__ic"><!--icone:mulher--></span>
+        <p class="blk-int__area">Fisioterapia pélvica</p>
+        <h3>Cuidado íntimo, com discrição</h3>
+        <p>Assoalho pélvico avaliado e tratado em sala reservada, com a mesma equipe que você já conhece.</p>
+      </li>
+      <li class="blk-int__card" data-reveal style="--d:300ms">
+        <span class="blk-int__ic"><!--icone:pe--></span>
+        <p class="blk-int__area">Podologia</p>
+        <h3>Dos pés também</h3>
+        <p>Unhas, calosidades e saúde dos pés no mesmo endereço do resto do cuidado.</p>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<style>
+.blk-int{padding-block:var(--sp-section)}
+.blk-int__eyebrow{margin:0 0 var(--sp-2);font-family:var(--f-body);font-size:var(--t-label);letter-spacing:var(--eyebrow-track);text-transform:uppercase;color:var(--brand)}
+.blk-int__titulo{margin:0;font-family:var(--f-display);font-size:var(--t-h2);line-height:var(--lh-display);text-wrap:balance;color:var(--ink);max-width:22ch}
+.blk-int__lead{margin:var(--sp-3) 0 0;font-size:1.15rem;line-height:1.6;color:var(--ink);max-width:38rem}
+.blk-int__motivo{margin-top:var(--sp-4);color:var(--pulse);max-width:16rem}
+.blk-int__motivo svg{width:100%;height:auto}
+.blk-int__grade{list-style:none;margin:var(--sp-5) 0 0;padding:0;display:grid;gap:var(--sp-3)}
+.blk-int__card{padding:var(--sp-4);border-radius:var(--radius);background:color-mix(in srgb,var(--pulse) 9%,var(--bg));border:1px solid color-mix(in srgb,var(--pulse) 30%,transparent)}
+.blk-int__ic{display:inline-flex;width:2.5rem;height:2.5rem;color:var(--brand)}
+.blk-int__ic svg{width:100%;height:100%}
+.blk-int__area{margin:var(--sp-2) 0 var(--sp-1);font-size:var(--t-label);letter-spacing:var(--eyebrow-track);text-transform:uppercase;color:var(--brand)}
+.blk-int__card h3{margin:0 0 var(--sp-1);font-family:var(--f-display);font-size:1.4rem;font-weight:500;line-height:1.25;color:var(--ink)}
+.blk-int__card p:last-child{margin:0;color:color-mix(in srgb,var(--ink) 75%,transparent);line-height:1.6}
+@media (min-width:760px){.blk-int__grade{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (min-width:1100px){
+  .blk-int .wrap{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.3fr);gap:var(--sp-6);align-items:start}
+  .blk-int__cab{position:sticky;top:7rem}
+  .blk-int__grade{margin:0}
+}
+</style>
